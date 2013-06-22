@@ -1,0 +1,17 @@
+E:\Informal\ProfileMeUp\Solution\PMUService\obj\Debug\ResolveAssemblyReference.cache
+E:\Informal\ProfileMeUp\Solution\PMUService\bin\Debug\PMUService.dll.config
+E:\Informal\ProfileMeUp\Solution\PMUService\bin\Debug\PMUService.dll
+E:\Informal\ProfileMeUp\Solution\PMUService\bin\Debug\PMUService.pdb
+E:\Informal\ProfileMeUp\Solution\PMUService\obj\Debug\PMUService.dll
+E:\Informal\ProfileMeUp\Solution\PMUService\obj\Debug\PMUService.pdb
+E:\Informal\ProfileMeUp\Solution\PMULoginService\PMUService\bin\Debug\PMUService.dll.config
+E:\Informal\ProfileMeUp\Solution\PMULoginService\PMUService\bin\Debug\PMUService.dll
+E:\Informal\ProfileMeUp\Solution\PMULoginService\PMUService\bin\Debug\PMUService.pdb
+E:\Informal\ProfileMeUp\Solution\PMULoginService\PMUService\obj\Debug\ResolveAssemblyReference.cache
+E:\Informal\ProfileMeUp\Solution\PMULoginService\PMUService\obj\Debug\PMUService.dll
+E:\Informal\ProfileMeUp\Solution\PMULoginService\PMUService\obj\Debug\PMUService.pdb
+C:\Users\nishants\Desktop\ProfileMeUp\Solution\Solution\PMUServices\PMUService\bin\Debug\PMUService.dll.config
+C:\Users\nishants\Desktop\ProfileMeUp\Solution\Solution\PMUServices\PMUService\bin\Debug\PMUService.dll
+C:\Users\nishants\Desktop\ProfileMeUp\Solution\Solution\PMUServices\PMUService\bin\Debug\PMUService.pdb
+C:\Users\nishants\Desktop\ProfileMeUp\Solution\Solution\PMUServices\PMUService\obj\Debug\PMUService.dll
+C:\Users\nishants\Desktop\ProfileMeUp\Solution\Solution\PMUServices\PMUService\obj\Debug\PMUService.pdb

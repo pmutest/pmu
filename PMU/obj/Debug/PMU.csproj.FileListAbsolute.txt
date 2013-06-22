@@ -1,0 +1,28 @@
+D:\Project\.Net 4.0\Dummy_Project\PMU\bin\PMU.dll
+D:\Project\.Net 4.0\Dummy_Project\PMU\bin\PMU.pdb
+D:\Project\.Net 4.0\Dummy_Project\PMU\obj\Debug\PMU.dll
+D:\Project\.Net 4.0\Dummy_Project\PMU\obj\Debug\PMU.pdb
+E:\Informal\ProfileMeUp\Solution\PMU\bin\PMU.dll
+E:\Informal\ProfileMeUp\Solution\PMU\bin\PMU.pdb
+E:\Informal\ProfileMeUp\Solution\PMU\obj\Debug\ResolveAssemblyReference.cache
+E:\Informal\ProfileMeUp\Solution\PMU\obj\Debug\PMU.dll
+E:\Informal\ProfileMeUp\Solution\PMU\obj\Debug\PMU.pdb
+E:\Informal\ProfileMeUp\Solution\PMU\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+E:\Informal\ProfileMeUp\Solution\PMU\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\Informal\ProfileMeUp\Solution\PMU\bin\Microsoft.Practices.Unity.Interception.dll
+E:\Informal\ProfileMeUp\Solution\PMU\bin\Microsoft.Practices.ServiceLocation.dll
+E:\Informal\ProfileMeUp\Solution\PMU\bin\Microsoft.Practices.Unity.dll
+E:\Informal\ProfileMeUp\Solution\PMU\bin\Microsoft.Practices.EnterpriseLibrary.Common.pdb
+E:\Informal\ProfileMeUp\Solution\PMU\bin\Microsoft.Practices.EnterpriseLibrary.Common.xml
+E:\Informal\ProfileMeUp\Solution\PMU\bin\Microsoft.Practices.Unity.Interception.pdb
+E:\Informal\ProfileMeUp\Solution\PMU\bin\Microsoft.Practices.ServiceLocation.pdb
+E:\Informal\ProfileMeUp\Solution\PMU\bin\Microsoft.Practices.Unity.pdb
+C:\Users\nishants\Desktop\ProfileMeUp\Solution\Solution\PMU\bin\PMU.dll
+C:\Users\nishants\Desktop\ProfileMeUp\Solution\Solution\PMU\bin\PMU.pdb
+C:\Users\nishants\Desktop\ProfileMeUp\Solution\Solution\PMU\bin\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+C:\Users\nishants\Desktop\ProfileMeUp\Solution\Solution\PMU\obj\Debug\PMU.dll
+C:\Users\nishants\Desktop\ProfileMeUp\Solution\Solution\PMU\obj\Debug\PMU.pdb
+C:\Users\nishants\Desktop\ProfileMeUp\Solution\Solution\PMU\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Users\nishants\Desktop\ProfileMeUp\Solution\Solution\PMU\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\nishants\Desktop\ProfileMeUp\Solution\Solution\PMU\bin\Microsoft.Practices.Unity.dll
+C:\Users\nishants\Desktop\ProfileMeUp\Solution\Solution\PMU\bin\Microsoft.Practices.Unity.Interception.dll

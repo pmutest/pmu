@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/PMU.PMUServices.PMUService.Contracts.Entitites" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/PMU.PMUServices.PMUService.Contracts.Entitites" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="User">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:PMUServiceDataResult">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="C_Address1" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="C_Address2" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="C_Address3" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="C_CityId" type="xs:int" />
+          <xs:element minOccurs="0" name="C_CountryId" type="xs:int" />
+          <xs:element minOccurs="0" name="C_PinCode" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="C_StateId" type="xs:int" />
+          <xs:element minOccurs="0" name="CreatedOn" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="Email" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="FbUniqueId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="FullName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Gender" type="xs:boolean" />
+          <xs:element minOccurs="0" name="GmailUniqueId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ImageUrl" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="IsAdmin" type="xs:boolean" />
+          <xs:element minOccurs="0" name="IsDeleted" type="xs:boolean" />
+          <xs:element minOccurs="0" name="IsEnabled" type="xs:boolean" />
+          <xs:element minOccurs="0" name="IsFbUser" type="xs:boolean" />
+          <xs:element minOccurs="0" name="IsGmailUser" type="xs:boolean" />
+          <xs:element minOccurs="0" name="M_Number" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ModifiedOn" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="P_Address1" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="P_Address2" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="P_Address3" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="P_CityId" type="xs:int" />
+          <xs:element minOccurs="0" name="P_CountryId" type="xs:int" />
+          <xs:element minOccurs="0" name="P_PinCode" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="P_StateId" type="xs:int" />
+          <xs:element minOccurs="0" name="Password" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="T_Number" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="UserId" type="xs:int" />
+          <xs:element minOccurs="0" name="UserName" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="User" nillable="true" type="tns:User" />
+  <xs:complexType name="PMUServiceDataResult">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:element name="PMUServiceDataResult" nillable="true" type="tns:PMUServiceDataResult" />
+  <xs:complexType name="WSBoolean">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:PMUServiceDataResult">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="BooleanValue" type="xs:boolean" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="WSBoolean" nillable="true" type="tns:WSBoolean" />
+  <xs:complexType name="WSInteger">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:PMUServiceDataResult">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="IntegerValue" type="xs:int" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="WSInteger" nillable="true" type="tns:WSInteger" />
+  <xs:complexType name="WSString">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:PMUServiceDataResult">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="StringValue" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="WSString" nillable="true" type="tns:WSString" />
+  <xs:complexType name="PMUServiceResult">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Data" nillable="true" type="tns:PMUServiceDataResult" />
+      <xs:element minOccurs="0" name="ErrorDetails" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ErrorMessage" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PMUServiceResult" nillable="true" type="tns:PMUServiceResult" />
+</xs:schema>

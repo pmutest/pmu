@@ -1,0 +1,910 @@
+----------------------------------------
+Timestamp: 6/17/2013 9:45:27 AM
+
+Message: 
+
+Category: General
+
+Priority: -1
+
+EventId: 0
+
+Severity: Information
+
+Title:
+
+Machine: VIJAYGWIN7
+
+App Domain: a65ca60c-1-130159358485125739
+
+ProcessId: 5600
+
+Process Name: C:\Program Files\Common Files\Microsoft Shared\DevServer\10.0\WebDev.WebServer40.exe
+
+Thread Name: 
+
+Win32 ThreadId:6244
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/17/2013 10:03:19 AM
+
+Message: 
+
+Category: General
+
+Priority: -1
+
+EventId: 0
+
+Severity: Information
+
+Title:
+
+Machine: VIJAYGWIN7
+
+App Domain: a65ca60c-1-130159358485125739
+
+ProcessId: 5600
+
+Process Name: C:\Program Files\Common Files\Microsoft Shared\DevServer\10.0\WebDev.WebServer40.exe
+
+Thread Name: 
+
+Win32 ThreadId:6648
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/17/2013 1:36:05 PM
+
+Message: System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+   at PMU.PMUServices.PMULogic.PMULoginManager.InsertUserSignUpDetails(User user) in E:\Informal\ProfileMeUp\Solution\PMULoginService\PMULogic\PMULoginManager.cs:line 38
+   at PMU.PMUServices.PMUServiceLibrary.PMUService.InsertUserSignUpDetails(User user) in E:\Informal\ProfileMeUp\Solution\PMULoginService\PMUServiceLibrary\PMUServiceLibrary\PMUService.cs:line 37
+
+Category: General
+
+Priority: -1
+
+EventId: 0
+
+Severity: Error
+
+Title:Some error, unable to insert user data
+
+Machine: VIJAYGWIN7
+
+App Domain: a65ca60c-3-130159495867003533
+
+ProcessId: 5600
+
+Process Name: C:\Program Files\Common Files\Microsoft Shared\DevServer\10.0\WebDev.WebServer40.exe
+
+Thread Name: 
+
+Win32 ThreadId:3548
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/17/2013 2:41:38 PM
+
+Message: There is no explicit mapping for the categories 'Insert new user data'. The log entry was: 
+Timestamp: 6/17/2013 2:41:38 PM
+Message: Start Trace: Activity 'ddba0eb0-3e2e-4849-a9e0-db8817b6fb8b' in method 'PMU.CODE.DAL.TestBAC.InsertUserDetailsCheck' at 202935277304 ticks
+Category: Insert new user data
+Priority: 5
+EventId: 1
+Severity: Start
+Title:TracerEnter
+Machine: VIJAYGWIN7
+App Domain: a65ca60c-4-130159536615194196
+ProcessId: 5600
+Process Name: C:\Program Files\Common Files\Microsoft Shared\DevServer\10.0\WebDev.WebServer40.exe
+Thread Name: 
+Win32 ThreadId:2136
+Extended Properties: 
+
+Category: 
+
+Priority: -1
+
+EventId: 6352
+
+Severity: Error
+
+Title:
+
+Machine: VIJAYGWIN7
+
+App Domain: a65ca60c-4-130159536615194196
+
+ProcessId: 5600
+
+Process Name: C:\Program Files\Common Files\Microsoft Shared\DevServer\10.0\WebDev.WebServer40.exe
+
+Thread Name: 
+
+Win32 ThreadId:2136
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/17/2013 2:41:38 PM
+
+Message: There is no explicit mapping for the categories 'Insert new user data'. The log entry was: 
+Timestamp: 6/17/2013 2:41:38 PM
+Message: System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+   at PMU.PMUServices.PMULogic.PMULoginManager.InsertUserSignUpDetails(User user) in E:\Informal\ProfileMeUp\Solution\PMULoginService\PMULogic\PMULoginManager.cs:line 38
+   at PMU.PMUServices.PMUServiceLibrary.PMUService.InsertUserSignUpDetails(User user) in E:\Informal\ProfileMeUp\Solution\PMULoginService\PMUServiceLibrary\PMUServiceLibrary\PMUService.cs:line 37
+Category: General, Insert new user data
+Priority: -1
+EventId: 0
+Severity: Error
+Title:Some error, unable to insert user data
+Machine: VIJAYGWIN7
+App Domain: a65ca60c-4-130159536615194196
+ProcessId: 5600
+Process Name: C:\Program Files\Common Files\Microsoft Shared\DevServer\10.0\WebDev.WebServer40.exe
+Thread Name: 
+Win32 ThreadId:2136
+Extended Properties: 
+
+Category: 
+
+Priority: -1
+
+EventId: 6352
+
+Severity: Error
+
+Title:
+
+Machine: VIJAYGWIN7
+
+App Domain: a65ca60c-4-130159536615194196
+
+ProcessId: 5600
+
+Process Name: C:\Program Files\Common Files\Microsoft Shared\DevServer\10.0\WebDev.WebServer40.exe
+
+Thread Name: 
+
+Win32 ThreadId:2136
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/17/2013 2:41:38 PM
+
+Message: System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+   at PMU.PMUServices.PMULogic.PMULoginManager.InsertUserSignUpDetails(User user) in E:\Informal\ProfileMeUp\Solution\PMULoginService\PMULogic\PMULoginManager.cs:line 38
+   at PMU.PMUServices.PMUServiceLibrary.PMUService.InsertUserSignUpDetails(User user) in E:\Informal\ProfileMeUp\Solution\PMULoginService\PMUServiceLibrary\PMUServiceLibrary\PMUService.cs:line 37
+
+Category: General, Insert new user data
+
+Priority: -1
+
+EventId: 0
+
+Severity: Error
+
+Title:Some error, unable to insert user data
+
+Machine: VIJAYGWIN7
+
+App Domain: a65ca60c-4-130159536615194196
+
+ProcessId: 5600
+
+Process Name: C:\Program Files\Common Files\Microsoft Shared\DevServer\10.0\WebDev.WebServer40.exe
+
+Thread Name: 
+
+Win32 ThreadId:2136
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/17/2013 2:41:38 PM
+
+Message: There is no explicit mapping for the categories 'Insert new user data'. The log entry was: 
+Timestamp: 6/17/2013 2:41:38 PM
+Message: End Trace: Activity 'ddba0eb0-3e2e-4849-a9e0-db8817b6fb8b' in method 'PMU.CODE.DAL.TestBAC.InsertUserDetailsCheck' at 202935389198 ticks (elapsed time: 0.052 seconds)
+Category: Insert new user data
+Priority: 5
+EventId: 1
+Severity: Stop
+Title:TracerExit
+Machine: VIJAYGWIN7
+App Domain: a65ca60c-4-130159536615194196
+ProcessId: 5600
+Process Name: C:\Program Files\Common Files\Microsoft Shared\DevServer\10.0\WebDev.WebServer40.exe
+Thread Name: 
+Win32 ThreadId:2136
+Extended Properties: 
+
+Category: 
+
+Priority: -1
+
+EventId: 6352
+
+Severity: Error
+
+Title:
+
+Machine: VIJAYGWIN7
+
+App Domain: a65ca60c-4-130159536615194196
+
+ProcessId: 5600
+
+Process Name: C:\Program Files\Common Files\Microsoft Shared\DevServer\10.0\WebDev.WebServer40.exe
+
+Thread Name: 
+
+Win32 ThreadId:2136
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 6/17/2013 2:48:32 PM
+
+Message: There is no explicit mapping for the categories 'Insert new user data'. The log entry was: 
+Timestamp: 6/17/2013 2:48:32 PM
+Message: Start Trace: Activity '828d4e2d-614a-4a30-9302-6f8d739c4b2a' in method 'PMU.CODE.DAL.TestBAC.InsertUserDetailsCheck' at 203823709211 ticks
+Category: Insert new user data
+Priority: 5
+EventId: 1
+Severity: Start
+Title:TracerEnter
+Machine: VIJAYGWIN7
+App Domain: a65ca60c-5-130159540875937897
+ProcessId: 5600
+Process Name: C:\Program Files\Common Files\Microsoft Shared\DevServer\10.0\WebDev.WebServer40.exe
+Thread Name: 
+Win32 ThreadId:3256
+Extended Properties: 
+
+Category: 
+
+Priority: -1
+
+EventId: 6352
+
+Severity: Error
+
+Title:
+
+Machine: VIJAYGWIN7
+
+ProcessId: 5600
+
+Process Name: C:\Program Files\Common Files\Microsoft Shared\DevServer\10.0\WebDev.WebServer40.exe
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/17/2013 2:49:23 PM
+
+Message: There is no explicit mapping for the categories 'Insert new user data'. The log entry was: 
+Timestamp: 6/17/2013 2:49:14 PM
+Message: System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+   at PMU.PMUServices.PMULogic.PMULoginManager.InsertUserSignUpDetails(User user) in E:\Informal\ProfileMeUp\Solution\PMULoginService\PMULogic\PMULoginManager.cs:line 38
+   at PMU.PMUServices.PMUServiceLibrary.PMUService.InsertUserSignUpDetails(User user) in E:\Informal\ProfileMeUp\Solution\PMULoginService\PMUServiceLibrary\PMUServiceLibrary\PMUService.cs:line 37
+Category: General, Insert new user data
+Priority: -1
+EventId: 0
+Severity: Error
+Title:Some error, unable to insert user data
+Machine: VIJAYGWIN7
+App Domain: a65ca60c-5-130159540875937897
+ProcessId: 5600
+Process Name: C:\Program Files\Common Files\Microsoft Shared\DevServer\10.0\WebDev.WebServer40.exe
+Thread Name: 
+Win32 ThreadId:3256
+Extended Properties: 
+
+Category: 
+
+Priority: -1
+
+EventId: 6352
+
+Severity: Error
+
+Title:
+
+Machine: VIJAYGWIN7
+
+ProcessId: 5600
+
+Process Name: C:\Program Files\Common Files\Microsoft Shared\DevServer\10.0\WebDev.WebServer40.exe
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/17/2013 2:49:14 PM
+
+Message: System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+   at PMU.PMUServices.PMULogic.PMULoginManager.InsertUserSignUpDetails(User user) in E:\Informal\ProfileMeUp\Solution\PMULoginService\PMULogic\PMULoginManager.cs:line 38
+   at PMU.PMUServices.PMUServiceLibrary.PMUService.InsertUserSignUpDetails(User user) in E:\Informal\ProfileMeUp\Solution\PMULoginService\PMUServiceLibrary\PMUServiceLibrary\PMUService.cs:line 37
+
+Category: General, Insert new user data
+
+Priority: -1
+
+EventId: 0
+
+Severity: Error
+
+Title:Some error, unable to insert user data
+
+Machine: VIJAYGWIN7
+
+ProcessId: 5600
+
+Process Name: C:\Program Files\Common Files\Microsoft Shared\DevServer\10.0\WebDev.WebServer40.exe
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/17/2013 2:49:25 PM
+
+Message: There is no explicit mapping for the categories 'Insert new user data'. The log entry was: 
+Timestamp: 6/17/2013 2:49:25 PM
+Message: End Trace: Activity '828d4e2d-614a-4a30-9302-6f8d739c4b2a' in method 'PMU.CODE.DAL.TestBAC.InsertUserDetailsCheck' at 203938318089 ticks (elapsed time: 53.477 seconds)
+Category: Insert new user data
+Priority: 5
+EventId: 1
+Severity: Stop
+Title:TracerExit
+Machine: VIJAYGWIN7
+App Domain: a65ca60c-5-130159540875937897
+ProcessId: 5600
+Process Name: C:\Program Files\Common Files\Microsoft Shared\DevServer\10.0\WebDev.WebServer40.exe
+Thread Name: 
+Win32 ThreadId:3256
+Extended Properties: 
+
+Category: 
+
+Priority: -1
+
+EventId: 6352
+
+Severity: Error
+
+Title:
+
+Machine: VIJAYGWIN7
+
+ProcessId: 5600
+
+Process Name: C:\Program Files\Common Files\Microsoft Shared\DevServer\10.0\WebDev.WebServer40.exe
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/17/2013 2:51:55 PM
+
+Message: System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+   at PMU.PMUServices.PMULogic.PMULoginManager.InsertUserSignUpDetails(User user) in E:\Informal\ProfileMeUp\Solution\PMULoginService\PMULogic\PMULoginManager.cs:line 38
+   at PMU.PMUServices.PMUServiceLibrary.PMUService.InsertUserSignUpDetails(User user) in E:\Informal\ProfileMeUp\Solution\PMULoginService\PMUServiceLibrary\PMUServiceLibrary\PMUService.cs:line 37
+
+Category: General
+
+Priority: -1
+
+EventId: 0
+
+Severity: Error
+
+Title:Some error, unable to insert user data
+
+Machine: VIJAYGWIN7
+
+ProcessId: 5600
+
+Process Name: C:\Program Files\Common Files\Microsoft Shared\DevServer\10.0\WebDev.WebServer40.exe
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/17/2013 2:59:49 PM
+
+Message: System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+   at PMU.PMUServices.PMULogic.PMULoginManager.InsertUserSignUpDetails(User user) in E:\Informal\ProfileMeUp\Solution\PMULoginService\PMULogic\PMULoginManager.cs:line 38
+   at PMU.PMUServices.PMUServiceLibrary.PMUService.InsertUserSignUpDetails(User user) in E:\Informal\ProfileMeUp\Solution\PMULoginService\PMUServiceLibrary\PMUServiceLibrary\PMUService.cs:line 37
+
+Category: General
+
+Priority: -1
+
+EventId: 0
+
+Severity: Error
+
+Title:Some error, unable to insert user data
+
+Machine: VIJAYGWIN7
+
+ProcessId: 5600
+
+Process Name: C:\Program Files\Common Files\Microsoft Shared\DevServer\10.0\WebDev.WebServer40.exe
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/17/2013 3:29:48 PM
+
+Message: System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+   at PMU.PMUServices.PMULogic.PMULoginManager.InsertUserSignUpDetails(User user) in E:\Informal\ProfileMeUp\Solution\PMULoginService\PMULogic\PMULoginManager.cs:line 38
+   at PMU.PMUServices.PMUServiceLibrary.PMUService.InsertUserSignUpDetails(User user) in E:\Informal\ProfileMeUp\Solution\PMULoginService\PMUServiceLibrary\PMUServiceLibrary\PMUService.cs:line 37
+
+Category: General
+
+Severity: Error
+
+Title:Some error, unable to insert user data
+
+Machine: VIJAYGWIN7
+
+ProcessId: 5600
+
+Process Name: C:\Program Files\Common Files\Microsoft Shared\DevServer\10.0\WebDev.WebServer40.exe
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/17/2013 3:31:55 PM
+
+Message: System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+   at PMU.PMUServices.PMULogic.PMULoginManager.InsertUserSignUpDetails(User user) in E:\Informal\ProfileMeUp\Solution\PMULoginService\PMULogic\PMULoginManager.cs:line 38
+   at PMU.PMUServices.PMUServiceLibrary.PMUService.InsertUserSignUpDetails(User user) in E:\Informal\ProfileMeUp\Solution\PMULoginService\PMUServiceLibrary\PMUServiceLibrary\PMUService.cs:line 37
+
+Category: General
+
+Severity: Error
+
+Title:Some error, unable to insert user data
+
+Machine: VIJAYGWIN7
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/17/2013 3:34:18 PM
+
+Message: System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+   at PMU.PMUServices.PMULogic.PMULoginManager.InsertUserSignUpDetails(User user) in E:\Informal\ProfileMeUp\Solution\PMULoginService\PMULogic\PMULoginManager.cs:line 38
+   at PMU.PMUServices.PMUServiceLibrary.PMUService.InsertUserSignUpDetails(User user) in E:\Informal\ProfileMeUp\Solution\PMULoginService\PMUServiceLibrary\PMUServiceLibrary\PMUService.cs:line 37
+
+Category: General
+
+Severity: Error
+
+Title:Some error, unable to insert user data
+
+Machine: VIJAYGWIN7
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/17/2013 3:38:00 PM
+
+Message: System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+   at PMU.PMUServices.PMULogic.PMULoginManager.InsertUserSignUpDetails(User user) in E:\Informal\ProfileMeUp\Solution\PMULoginService\PMULogic\PMULoginManager.cs:line 38
+   at PMU.PMUServices.PMUServiceLibrary.PMUService.InsertUserSignUpDetails(User user) in E:\Informal\ProfileMeUp\Solution\PMULoginService\PMUServiceLibrary\PMUServiceLibrary\PMUService.cs:line 37
+
+Category: General
+
+Severity: Error
+
+Title:Some error, unable to insert user data
+
+Machine: VIJAYGWIN7
+
+Extended Properties: Extra Information - Some Special Value
+StackTrace - 	at Microsoft.Practices.EnterpriseLibrary.Logging.ExtraInformation.DebugInformationProvider.PopulateDictionary(IDictionary`2 dict)
+	at PMU.CODE.DAL.ErrorLogging.LogPageError(String title, String message, String url)	in E:\Informal\ProfileMeUp\Solution\PMU\CODE\DAL\ErrorLogging.cs: line 32
+	at PMU.CODE.DAL.TestBAC.InsertUserDetailsCheck()	in E:\Informal\ProfileMeUp\Solution\PMU\CODE\DAL\TestBAC.cs: line 41
+	at PMU._Default.Page_Load(Object sender, EventArgs e)	in E:\Informal\ProfileMeUp\Solution\PMU\Default.aspx.cs: line 15
+	at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+	at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+	at System.Web.UI.Control.OnLoad(EventArgs e)
+	at System.Web.UI.Control.LoadRecursive()
+	at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+	at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+	at System.Web.UI.Page.ProcessRequest()
+	at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+	at System.Web.UI.Page.ProcessRequest(HttpContext context)
+	at ASP.default_aspx.ProcessRequest(HttpContext context)	in c:\Users\vijayg\AppData\Local\Temp\Temporary ASP.NET Files\root\e1a9f1e7\46ed9932\App_Web_o2xigxas.1.cs: line 0
+	at System.Web.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+	at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+	at System.Web.ApplicationStepManager.ResumeSteps(Exception error)
+	at System.Web.HttpApplication.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+	at System.Web.HttpRuntime.ProcessRequestInternal(HttpWorkerRequest wr)
+	at System.Web.HttpRuntime.ProcessRequestNoDemand(HttpWorkerRequest wr)
+	at System.Web.HttpRuntime.ProcessRequest(HttpWorkerRequest wr)
+	at Microsoft.VisualStudio.WebHost.Request.Process()
+	at Microsoft.VisualStudio.WebHost.Host.ProcessRequest(Connection conn)
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/17/2013 3:40:43 PM
+
+Message: System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+   at PMU.PMUServices.PMULogic.PMULoginManager.InsertUserSignUpDetails(User user) in E:\Informal\ProfileMeUp\Solution\PMULoginService\PMULogic\PMULoginManager.cs:line 38
+   at PMU.PMUServices.PMUServiceLibrary.PMUService.InsertUserSignUpDetails(User user) in E:\Informal\ProfileMeUp\Solution\PMULoginService\PMUServiceLibrary\PMUServiceLibrary\PMUService.cs:line 37
+
+Category: General
+
+Severity: Error
+
+Title:Some error, unable to insert user data
+
+Machine: VIJAYGWIN7
+
+Extended Properties: Extra Information - Some Special Value
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/20/2013 9:19:34 AM
+
+Message: System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+   at PMU.PMUServices.PMULogic.PMULoginManager.InsertUserSignUpDetails(User user) in C:\Users\nishants\Desktop\ProfileMeUp\Solution\Solution\PMUServices\PMULogic\PMULoginManager.cs:line 35
+   at PMU.PMUServices.PMUServiceLibrary.PMUService.InsertUserSignUpDetails(User user) in C:\Users\nishants\Desktop\ProfileMeUp\Solution\Solution\PMUServices\PMUServiceLibrary\PMUServiceLibrary\PMUService.cs:line 33
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+
+Category: General
+
+Severity: Error
+
+Title:Some error, unable to insert user data
+
+Machine: NISHANTS7
+
+Extended Properties: URL - www.google.com
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/20/2013 9:53:16 AM
+
+Message: System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+   at PMU.PMUServices.PMULogic.PMULoginManager.InsertUserSignUpDetails(User user) in C:\Users\nishants\Desktop\ProfileMeUp\Solution\Solution\PMUServices\PMULogic\PMULoginManager.cs:line 35
+   at PMU.PMUServices.PMUServiceLibrary.PMUService.InsertUserSignUpDetails(User user) in C:\Users\nishants\Desktop\ProfileMeUp\Solution\Solution\PMUServices\PMUServiceLibrary\PMUServiceLibrary\PMUService.cs:line 33
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+
+Category: General
+
+Severity: Error
+
+Title:Some error, unable to insert user data
+
+Machine: NISHANTS7
+
+Extended Properties: URL - www.google.com
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/20/2013 10:05:42 AM
+
+Message: System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+   at PMU.PMUServices.PMULogic.PMULoginManager.InsertUserSignUpDetails(User user) in C:\Users\nishants\Desktop\ProfileMeUp\Solution\Solution\PMUServices\PMULogic\PMULoginManager.cs:line 35
+   at PMU.PMUServices.PMUServiceLibrary.PMUService.InsertUserSignUpDetails(User user) in C:\Users\nishants\Desktop\ProfileMeUp\Solution\Solution\PMUServices\PMUServiceLibrary\PMUServiceLibrary\PMUService.cs:line 33
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+
+Category: General
+
+Severity: Error
+
+Title:Some error, unable to insert user data
+
+Machine: NISHANTS7
+
+Extended Properties: URL - www.google.com
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/20/2013 11:32:17 AM
+
+Message: System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+   at PMU.PMUServices.PMULogic.PMULoginManager.InsertUserSignUpDetails(User user) in C:\Users\nishants\Desktop\ProfileMeUp\Solution\Solution\PMUServices\PMULogic\PMULoginManager.cs:line 35
+   at PMU.PMUServices.PMUServiceLibrary.PMUService.InsertUserSignUpDetails(User user) in C:\Users\nishants\Desktop\ProfileMeUp\Solution\Solution\PMUServices\PMUServiceLibrary\PMUServiceLibrary\PMUService.cs:line 33
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+
+Category: General
+
+Severity: Error
+
+Title:Some error, unable to insert user data
+
+Machine: NISHANTS7
+
+Extended Properties: URL - www.google.com
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/20/2013 11:34:36 AM
+
+Message: System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 26 - Error Locating Server/Instance Specified)
+   at PMU.PMUServices.PMULogic.PMULoginManager.InsertUserSignUpDetails(User user) in C:\Users\nishants\Desktop\ProfileMeUp\Solution\Solution\PMUServices\PMULogic\PMULoginManager.cs:line 35
+   at PMU.PMUServices.PMUServiceLibrary.PMUService.InsertUserSignUpDetails(User user) in C:\Users\nishants\Desktop\ProfileMeUp\Solution\Solution\PMUServices\PMUServiceLibrary\PMUServiceLibrary\PMUService.cs:line 33
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+
+Category: General
+
+Severity: Error
+
+Title:Some error, unable to insert user data
+
+Machine: NISHANTS7
+
+Extended Properties: URL - www.google.com
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/21/2013 9:10:38 AM
+
+Message: System.IO.FileNotFoundException: Could not load file or assembly 'Microsoft.Practices.ServiceLocation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35' or one of its dependencies. The system cannot find the file specified.
+File name: 'Microsoft.Practices.ServiceLocation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'
+   at PMU.PMUServices.PMULogic.PMULoginManager.InsertUserSignUpDetails(User user) in C:\Users\nishants\Desktop\ProfileMeUp\Solution\Solution\PMUServices\PMULogic\PMULoginManager.cs:line 35
+   at PMU.PMUServices.PMUServiceLibrary.PMUService.InsertUserSignUpDetails(User user) in C:\Users\nishants\Desktop\ProfileMeUp\Solution\Solution\PMUServices\PMUServiceLibrary\PMUServiceLibrary\PMUService.cs:line 33
+
+=== Pre-bind state information ===
+LOG: User = nishants7\nishants
+LOG: DisplayName = Microsoft.Practices.ServiceLocation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+ (Fully-specified)
+LOG: Appbase = file:///C:/Users/nishants/Desktop/ProfileMeUp/Solution/Solution/PMUServices/PMUServicehost/PMUServiceHost/
+LOG: Initial PrivatePath = C:\Users\nishants\Desktop\ProfileMeUp\Solution\Solution\PMUServices\PMUServicehost\PMUServiceHost\bin
+Calling assembly : Microsoft.Practices.EnterpriseLibrary.Data, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35.
+===
+LOG: This bind starts in default load context.
+LOG: Using application configuration file: C:\Users\nishants\Desktop\ProfileMeUp\Solution\Solution\PMUServices\PMUServicehost\PMUServiceHost\web.config
+LOG: Using host configuration file: 
+LOG: Using machine configuration file from C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config.
+LOG: Post-policy reference: Microsoft.Practices.ServiceLocation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+LOG: Attempting download of new URL file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/Temporary ASP.NET Files/root/20db51a7/312ef647/Microsoft.Practices.ServiceLocation.DLL.
+LOG: Attempting download of new URL file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/Temporary ASP.NET Files/root/20db51a7/312ef647/Microsoft.Practices.ServiceLocation/Microsoft.Practices.ServiceLocation.DLL.
+LOG: Attempting download of new URL file:///C:/Users/nishants/Desktop/ProfileMeUp/Solution/Solution/PMUServices/PMUServicehost/PMUServiceHost/bin/Microsoft.Practices.ServiceLocation.DLL.
+LOG: Attempting download of new URL file:///C:/Users/nishants/Desktop/ProfileMeUp/Solution/Solution/PMUServices/PMUServicehost/PMUServiceHost/bin/Microsoft.Practices.ServiceLocation/Microsoft.Practices.ServiceLocation.DLL.
+LOG: Attempting download of new URL file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/Temporary ASP.NET Files/root/20db51a7/312ef647/Microsoft.Practices.ServiceLocation.EXE.
+LOG: Attempting download of new URL file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/Temporary ASP.NET Files/root/20db51a7/312ef647/Microsoft.Practices.ServiceLocation/Microsoft.Practices.ServiceLocation.EXE.
+LOG: Attempting download of new URL file:///C:/Users/nishants/Desktop/ProfileMeUp/Solution/Solution/PMUServices/PMUServicehost/PMUServiceHost/bin/Microsoft.Practices.ServiceLocation.EXE.
+LOG: Attempting download of new URL file:///C:/Users/nishants/Desktop/ProfileMeUp/Solution/Solution/PMUServices/PMUServicehost/PMUServiceHost/bin/Microsoft.Practices.ServiceLocation/Microsoft.Practices.ServiceLocation.EXE.
+
+
+Category: General
+
+Severity: Error
+
+Title:Some error, unable to insert user data
+
+Machine: NISHANTS7
+
+Extended Properties: URL - www.google.com
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/21/2013 9:18:15 AM
+
+Message: System.IO.FileNotFoundException: Could not load file or assembly 'Microsoft.Practices.ServiceLocation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35' or one of its dependencies. The system cannot find the file specified.
+File name: 'Microsoft.Practices.ServiceLocation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'
+   at PMU.PMUServices.PMULogic.PMULoginManager.InsertUserSignUpDetails(User user) in C:\Users\nishants\Desktop\ProfileMeUp\Solution\Solution\PMUServices\PMULogic\PMULoginManager.cs:line 35
+   at PMU.PMUServices.PMUServiceLibrary.PMUService.InsertUserSignUpDetails(User user) in C:\Users\nishants\Desktop\ProfileMeUp\Solution\Solution\PMUServices\PMUServiceLibrary\PMUServiceLibrary\PMUService.cs:line 33
+
+=== Pre-bind state information ===
+LOG: User = nishants7\nishants
+LOG: DisplayName = Microsoft.Practices.ServiceLocation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+ (Fully-specified)
+LOG: Appbase = file:///C:/Users/nishants/Desktop/ProfileMeUp/Solution/Solution/PMUServices/PMUServicehost/PMUServiceHost/
+LOG: Initial PrivatePath = C:\Users\nishants\Desktop\ProfileMeUp\Solution\Solution\PMUServices\PMUServicehost\PMUServiceHost\bin
+Calling assembly : Microsoft.Practices.EnterpriseLibrary.Data, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35.
+===
+LOG: This bind starts in default load context.
+LOG: Using application configuration file: C:\Users\nishants\Desktop\ProfileMeUp\Solution\Solution\PMUServices\PMUServicehost\PMUServiceHost\web.config
+LOG: Using host configuration file: 
+LOG: Using machine configuration file from C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config.
+LOG: Post-policy reference: Microsoft.Practices.ServiceLocation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+LOG: The same bind was seen before, and was failed with hr = 0x80070002.
+
+
+Category: General
+
+Severity: Error
+
+Title:Some error, unable to insert user data
+
+Machine: NISHANTS7
+
+Extended Properties: URL - www.google.com
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/21/2013 9:18:23 AM
+
+Message: System.IO.FileNotFoundException: Could not load file or assembly 'Microsoft.Practices.ServiceLocation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35' or one of its dependencies. The system cannot find the file specified.
+File name: 'Microsoft.Practices.ServiceLocation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'
+   at PMU.PMUServices.PMULogic.PMULoginManager.InsertUserSignUpDetails(User user) in C:\Users\nishants\Desktop\ProfileMeUp\Solution\Solution\PMUServices\PMULogic\PMULoginManager.cs:line 35
+   at PMU.PMUServices.PMUServiceLibrary.PMUService.InsertUserSignUpDetails(User user) in C:\Users\nishants\Desktop\ProfileMeUp\Solution\Solution\PMUServices\PMUServiceLibrary\PMUServiceLibrary\PMUService.cs:line 33
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+
+
+Category: General
+
+Severity: Error
+
+Title:Some error, unable to insert user data
+
+Machine: NISHANTS7
+
+Extended Properties: URL - www.google.com
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/21/2013 10:08:56 AM
+
+Message: System.IO.FileNotFoundException: Could not load file or assembly 'Microsoft.Practices.ServiceLocation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35' or one of its dependencies. The system cannot find the file specified.
+File name: 'Microsoft.Practices.ServiceLocation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'
+   at PMU.PMUServices.PMULogic.PMULoginManager.InsertUserSignUpDetails(User user) in C:\Users\nishants\Desktop\ProfileMeUp\Solution\Solution\PMUServices\PMULogic\PMULoginManager.cs:line 35
+   at PMU.PMUServices.PMUServiceLibrary.PMUService.InsertUserSignUpDetails(User user) in C:\Users\nishants\Desktop\ProfileMeUp\Solution\Solution\PMUServices\PMUServiceLibrary\PMUServiceLibrary\PMUService.cs:line 33
+
+=== Pre-bind state information ===
+LOG: User = nishants7\nishants
+LOG: DisplayName = Microsoft.Practices.ServiceLocation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+ (Fully-specified)
+LOG: Appbase = file:///C:/Users/nishants/Desktop/ProfileMeUp/Solution/Solution/PMUServices/PMUServicehost/PMUServiceHost/
+LOG: Initial PrivatePath = C:\Users\nishants\Desktop\ProfileMeUp\Solution\Solution\PMUServices\PMUServicehost\PMUServiceHost\bin
+Calling assembly : Microsoft.Practices.EnterpriseLibrary.Data, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35.
+===
+LOG: This bind starts in default load context.
+LOG: Using application configuration file: C:\Users\nishants\Desktop\ProfileMeUp\Solution\Solution\PMUServices\PMUServicehost\PMUServiceHost\web.config
+LOG: Using host configuration file: 
+LOG: Using machine configuration file from C:\Windows\Microsoft.NET\Framework\v4.0.30319\config\machine.config.
+LOG: Post-policy reference: Microsoft.Practices.ServiceLocation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+LOG: Attempting download of new URL file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/Temporary ASP.NET Files/root/20db51a7/312ef647/Microsoft.Practices.ServiceLocation.DLL.
+LOG: Attempting download of new URL file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/Temporary ASP.NET Files/root/20db51a7/312ef647/Microsoft.Practices.ServiceLocation/Microsoft.Practices.ServiceLocation.DLL.
+LOG: Attempting download of new URL file:///C:/Users/nishants/Desktop/ProfileMeUp/Solution/Solution/PMUServices/PMUServicehost/PMUServiceHost/bin/Microsoft.Practices.ServiceLocation.DLL.
+LOG: Attempting download of new URL file:///C:/Users/nishants/Desktop/ProfileMeUp/Solution/Solution/PMUServices/PMUServicehost/PMUServiceHost/bin/Microsoft.Practices.ServiceLocation/Microsoft.Practices.ServiceLocation.DLL.
+LOG: Attempting download of new URL file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/Temporary ASP.NET Files/root/20db51a7/312ef647/Microsoft.Practices.ServiceLocation.EXE.
+LOG: Attempting download of new URL file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/Temporary ASP.NET Files/root/20db51a7/312ef647/Microsoft.Practices.ServiceLocation/Microsoft.Practices.ServiceLocation.EXE.
+LOG: Attempting download of new URL file:///C:/Users/nishants/Desktop/ProfileMeUp/Solution/Solution/PMUServices/PMUServicehost/PMUServiceHost/bin/Microsoft.Practices.ServiceLocation.EXE.
+LOG: Attempting download of new URL file:///C:/Users/nishants/Desktop/ProfileMeUp/Solution/Solution/PMUServices/PMUServicehost/PMUServiceHost/bin/Microsoft.Practices.ServiceLocation/Microsoft.Practices.ServiceLocation.EXE.
+
+
+Category: General
+
+Severity: Error
+
+Title:Some error, unable to insert user data
+
+Machine: NISHANTS7
+
+Extended Properties: URL - www.google.com
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/22/2013 7:32:42 AM
+
+Message: System.NullReferenceException: Object reference not set to an instance of an object.
+   at PMU.PMUServices.PMULogic.PMULoginManager.IsUserAllreadyExist(String userName) in C:\Users\nishants\Desktop\ProfileMeUp\Solution\Solution\PMUServices\PMULogic\PMULoginManager.cs:line 49
+   at PMU.PMUServices.PMUServiceLibrary.PMUService.IsUserNameExist(String userName) in C:\Users\nishants\Desktop\ProfileMeUp\Solution\Solution\PMUServices\PMUServiceLibrary\PMUServiceLibrary\PMUService.cs:line 68
+
+Category: General
+
+Severity: Error
+
+Title:Some error, Unable to search username
+
+Machine: NISHANTS7
+
+Extended Properties: URL - www.google.com
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/22/2013 7:32:42 AM
+
+Message: System.NullReferenceException: Object reference not set to an instance of an object.
+   at PMU.PMUServices.PMULogic.PMULoginManager.IsUserAllreadyExist(String userName) in C:\Users\nishants\Desktop\ProfileMeUp\Solution\Solution\PMUServices\PMULogic\PMULoginManager.cs:line 49
+   at PMU.PMUServices.PMUServiceLibrary.PMUService.IsUserNameExist(String userName) in C:\Users\nishants\Desktop\ProfileMeUp\Solution\Solution\PMUServices\PMUServiceLibrary\PMUServiceLibrary\PMUService.cs:line 68
+
+Category: General
+
+Severity: Error
+
+Title:Some error, Unable to search username
+
+Machine: NISHANTS7
+
+Extended Properties: URL - www.google.com
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/22/2013 7:34:45 AM
+
+Message: System.NullReferenceException: Object reference not set to an instance of an object.
+   at PMU.PMUServices.PMULogic.PMULoginManager.IsUserAllreadyExist(String userName) in C:\Users\nishants\Desktop\ProfileMeUp\Solution\Solution\PMUServices\PMULogic\PMULoginManager.cs:line 49
+   at PMU.PMUServices.PMUServiceLibrary.PMUService.IsUserNameExist(String userName) in C:\Users\nishants\Desktop\ProfileMeUp\Solution\Solution\PMUServices\PMUServiceLibrary\PMUServiceLibrary\PMUService.cs:line 68
+
+Category: General
+
+Severity: Error
+
+Title:Some error, Unable to search username
+
+Machine: NISHANTS7
+
+Extended Properties: URL - www.google.com
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/22/2013 7:34:45 AM
+
+Message: System.NullReferenceException: Object reference not set to an instance of an object.
+   at PMU.PMUServices.PMULogic.PMULoginManager.IsUserAllreadyExist(String userName) in C:\Users\nishants\Desktop\ProfileMeUp\Solution\Solution\PMUServices\PMULogic\PMULoginManager.cs:line 49
+   at PMU.PMUServices.PMUServiceLibrary.PMUService.IsUserNameExist(String userName) in C:\Users\nishants\Desktop\ProfileMeUp\Solution\Solution\PMUServices\PMUServiceLibrary\PMUServiceLibrary\PMUService.cs:line 68
+
+Category: General
+
+Severity: Error
+
+Title:Some error, Unable to search username
+
+Machine: NISHANTS7
+
+Extended Properties: URL - www.google.com
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/22/2013 7:35:31 AM
+
+Message: System.NullReferenceException: Object reference not set to an instance of an object.
+   at PMU.PMUServices.PMULogic.PMULoginManager.IsUserAllreadyExist(String userName) in C:\Users\nishants\Desktop\ProfileMeUp\Solution\Solution\PMUServices\PMULogic\PMULoginManager.cs:line 49
+   at PMU.PMUServices.PMUServiceLibrary.PMUService.IsUserNameExist(String userName) in C:\Users\nishants\Desktop\ProfileMeUp\Solution\Solution\PMUServices\PMUServiceLibrary\PMUServiceLibrary\PMUService.cs:line 68
+
+Category: General
+
+Severity: Error
+
+Title:Some error, Unable to search username
+
+Machine: NISHANTS7
+
+Extended Properties: URL - www.google.com
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/22/2013 7:35:31 AM
+
+Message: System.NullReferenceException: Object reference not set to an instance of an object.
+   at PMU.PMUServices.PMULogic.PMULoginManager.IsUserAllreadyExist(String userName) in C:\Users\nishants\Desktop\ProfileMeUp\Solution\Solution\PMUServices\PMULogic\PMULoginManager.cs:line 49
+   at PMU.PMUServices.PMUServiceLibrary.PMUService.IsUserNameExist(String userName) in C:\Users\nishants\Desktop\ProfileMeUp\Solution\Solution\PMUServices\PMUServiceLibrary\PMUServiceLibrary\PMUService.cs:line 68
+
+Category: General
+
+Severity: Error
+
+Title:Some error, Unable to search username
+
+Machine: NISHANTS7
+
+Extended Properties: URL - www.google.com
+
+----------------------------------------
+----------------------------------------
+Timestamp: 6/22/2013 9:03:19 AM
+
+Message: System.Data.SqlClient.SqlException (0x80131904): Procedure or function PM_CheckUserNameExistence has too many arguments specified.
+   at PMU.PMUServices.PMULogic.PMULoginManager.IsUserAllreadyExist(String userName) in C:\Users\nishants\Desktop\ProfileMeUp\Solution\Solution\PMUServices\PMULogic\PMULoginManager.cs:line 49
+   at PMU.PMUServices.PMUServiceLibrary.PMUService.IsUserNameExist(String userName) in C:\Users\nishants\Desktop\ProfileMeUp\Solution\Solution\PMUServices\PMUServiceLibrary\PMUServiceLibrary\PMUService.cs:line 68
+ClientConnectionId:8f9fb1d4-42db-43ad-bb71-e933d59e1142
+
+Category: General
+
+Severity: Error
+
+Title:Some error, Unable to search username
+
+Machine: NISHANTS7
+
+Extended Properties: URL - www.google.com
+
+----------------------------------------
