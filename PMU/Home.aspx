@@ -16,26 +16,7 @@
      }
     </style>
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div class="navbar">
-        <div class="navbar-inner">
-            <div class="headerNavMenu container">
-<%--                <a class="brand" href="#">Boot Strap Test</a>
-                <ul class="nav">
-                    <li><a href="#">A</a></li>
-                    <li><a href="#">B</a></li>
-                    <li><a href="#">V</a></li>
-                </ul>--%>
-                <ul class="headerNav nav pull-right">
-                    <li><span class="spanSignInUserNameErrMsg"></span></li>
-                    <li><input type="text" runat="server" id="txtSignInUserName" class="signInUserName" placeholder="Username"/></li>
-                    <li><span class="spanSignInPwdErrMsg"></span></li>
-                    <li><input type="password" runat="server" id="txtSignInPassword" class="signInPaswd"  placeholder="Password" /></li>
-                    <li><asp:Button ID="btnSignIn" runat="server" CssClass="btnSignIn btn btn-small btn-primary" OnClick="btnSignIn_Click"  OnClientClick="return DoSignInValidation();" Text="Sign In" /></li>
-                </ul>
-            </div>
-        </div>
-    </div>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">    
     <div class="signUpAreaAndAddBox">
         <div class="container">
 <%--            <div class="divSiteMessageArea pull-left">

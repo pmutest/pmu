@@ -18,6 +18,25 @@
 <body>
     <form id="form1" runat="server">
     <div id="divHeader" runat="server" class="header">
+        <div class="navbar">
+            <div class="navbar-inner">
+                <div class="headerNavMenu container">
+                    <a class="brand" href="#">Boot Strap Test</a>
+                    <ul class="nav">
+                        <li><a href="#">Resume Tips</a></li>
+                        <li><a href="#">Forum</a></li>
+                        <li><a href="#">Jobs</a></li>
+                    </ul>
+                    <ul class="headerNav nav pull-right">
+                        <li><span class="spanSignInUserNameErrMsg"></span></li>
+                        <li><input type="text" runat="server" id="txtSignInUserName" class="signInUserName" placeholder="Username"/></li>
+                        <li><span class="spanSignInPwdErrMsg"></span></li>
+                        <li><input type="password" runat="server" id="txtSignInPassword" class="signInPaswd"  placeholder="Password" /></li>
+                        <li><asp:Button ID="btnSignIn" runat="server" CssClass="btnSignIn btn btn-small btn-primary" OnClick="btnSignIn_Click"  OnClientClick="return DoSignInValidation();" Text="Sign In" /></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
 
     <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">

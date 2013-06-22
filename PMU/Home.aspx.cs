@@ -19,23 +19,7 @@ namespace PMU
                 ResetSignUptxtFieldValue();
             }
 
-        }
-
-        protected void btnSignIn_Click(object sender, EventArgs e)
-        {
-            string userName = txtSignInUserName.Value.Trim();
-            string password = txtSignInPassword.Value;
-            string validateInput = string.Empty;
-            bool IsUserExist = false;
-
-            validateInput = LoginDetail.validateSignInData(userName, password);
-            
-
-            if (validateInput == string.Empty)
-            {
-                IsUserExist = LoginDetail.IsAuthorizedUser(userName, password);
-            }
-        }
+        }       
 
         protected void btnSignUp_Click(object sender, EventArgs e)
         {
@@ -71,8 +55,7 @@ namespace PMU
         }
 
         private void ResetSignUptxtFieldValue()
-        {
-            txtSignInUserName.Value = string.Empty;
+        {           
             txtEmailAdd.Value = string.Empty;
             txtSignUpPassword.Value = string.Empty;
             txtConfPassword.Value = string.Empty;

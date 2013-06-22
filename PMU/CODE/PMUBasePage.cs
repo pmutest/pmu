@@ -2,11 +2,17 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.Web.SessionState;
 
 namespace PMU.CODE
 {
     public class PMUBasePage : System.Web.UI.Page
     {
+        public PMUBasePage()
+        {
+            this.Load += new EventHandler(this.Page_Load);
+        }
+
         protected override void OnLoad(EventArgs e)
         {
             base.OnLoad(e);
@@ -24,6 +30,11 @@ namespace PMU.CODE
         /// </summary>
         protected void Page_Load(object sender, System.EventArgs e)
         {
+            //check if session state exists and userid is in session
+            if (!RequestHasSession || Session["UserID"] == null)
+            {
+                Response.Redirect("Home.aspx?key=expired", false);
+            }
             string pageURL = Request.Url.AbsoluteUri;
             // If the Session value for the user is not set, then check the Cookie value for user's Validity.
             //if (this.Session["Username"] == null)
@@ -36,6 +47,14 @@ namespace PMU.CODE
             //        return;
             //    }
             //}
+        }
+
+        public static bool RequestHasSession
+        {
+            get
+            {
+                return (HttpContext.Current.Handler is IRequiresSessionState || HttpContext.Current.Handler is IReadOnlySessionState);
+            }
         }
     }
 }

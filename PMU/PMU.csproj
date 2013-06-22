@@ -72,6 +72,7 @@
     <Content Include="Home.aspx" />
     <Content Include="img\glyphicons-halflings-white.png" />
     <Content Include="img\glyphicons-halflings.png" />
+    <Content Include="ResumeBuilder.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\Home.js" />
@@ -142,6 +143,13 @@
       <DependentUpon>PMUp.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ResumeBuilder.aspx.cs">
+      <DependentUpon>ResumeBuilder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ResumeBuilder.aspx.designer.cs">
+      <DependentUpon>ResumeBuilder.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Service References\PMUService\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
